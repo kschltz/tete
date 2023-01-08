@@ -2,4 +2,5 @@
  :deps/prep-lib {:alias :build
                  :fn compile
                  :ensure "target/classes"}
- :deps {bb.mom/tete {:local/root "../"}}}
+ :deps {org.babashka/http-client {:mvn/version "0.0.2"}
+        bb.mom/tete {:local/root "../"}}}
