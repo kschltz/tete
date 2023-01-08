@@ -1,0 +1,5 @@
+{:paths ["src" "../target/classes"]
+ :deps/prep-lib {:alias :build
+                 :fn compile
+                 :ensure "target/classes"}
+ :deps {bb.mom/tete {:local/root "../"}}}
